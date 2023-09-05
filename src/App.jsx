@@ -10,6 +10,7 @@ import {
 
 function App() {
   const [count, setCount] = useState(0);
+  document.title = count;
 
   return (
     <>
